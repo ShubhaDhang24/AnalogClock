@@ -12,7 +12,8 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: black;
+  background-color: white;
+
 }
 .container{
   position: relative;
@@ -51,6 +52,7 @@ transform: rotate(calc(-30deg*var(--i)));
   height: 8px;
   border-radius: 50%;
   background-color: #fff;
+  z-index:4;
 }
 .hand{
   position: absolute;
@@ -61,8 +63,8 @@ transform: rotate(calc(-30deg*var(--i)));
 .hand i{
   position: absolute;
   background-color: var(--color);
-  width: 8px;
-  height: 100px;
+  width: var(--w);
+  height: var(--h);
   border-radius: 8px;
 }
 
